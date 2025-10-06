@@ -1,0 +1,13 @@
+li:nth-child(odd) { 
+    background: gray; 
+}
+li::before{
+    content: "==>";
+}
+li:hover{
+    background-color: rgb(189, 187, 187);
+}
+.hecha::after {
+    content: " \/";
+  }
+
